@@ -25,4 +25,4 @@ $("#saveNotesBtn").click(saveNotes)
 $(document).ready(function(){
     var savedNotes = localStorage.getItem("notes")
     $("textarea").val(savedNotes)
-})
+});
