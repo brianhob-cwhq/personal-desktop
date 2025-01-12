@@ -8,6 +8,13 @@ function startTime() {
     m = checkTime(m);
     s = checkTime(s);
     document.getElementById('clock').innerHTML =  h + ":" + m + ":" + s;
+
+    var year = today.getFullYear();
+    var month = today.getMonth() + 1;
+    var date = today.getDate();
+    month = checkTime(month);
+    document.getElementById('date').innerHTML =  month + "-" + date + "-" + year;
+
     setTimeout(startTime, 1000);
 }
 
