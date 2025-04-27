@@ -26,3 +26,4 @@ function displayDate() {
     document.getElementById('date').innerHTML =  month + "-" + day + "-" + year;
 }
 displayDate()
+console.log("Hello!")
